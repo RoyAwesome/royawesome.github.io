@@ -1,0 +1,29 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Garrett's Blog"
+paginate = 10
+theme = 'binario'
+
+[Author] # Used in authorbox
+  name = "Garrett Fleenor"
+  bio = "I write code and make video games.  Here are my musing on video game topics and notes and tips for different things"
+  avatar = "img/avatar.png"
+
+[Params.Breadcrumb]
+  enable = true
+
+[Params]
+  description = "Notes and Posts"
+  columns = 2
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  colorTheme = "dark-blue" # dark-green, dark-blue, dark-red, dark-violet
+  authorbox = true # Show authorbox at bottom of single pages if true
+  mathjax = true # Enable MathJax for all site pages
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path. Optional
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config. Optional
+
+[Params.Social]
+  email = "kylegar@kylegar.net"
+  github = "royawesome"
+  mastodon = "https://mastodon.gamedev.place/@royawesome"
