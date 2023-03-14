@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://royawesome.github.io/'
 languageCode = 'en-us'
 title = "Garrett's Blog"
 paginate = 10
